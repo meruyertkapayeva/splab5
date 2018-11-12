@@ -57,4 +57,4 @@ C:
 
 * measure running time of `TASK A`, and running time of similar task `DOMATH` of `splab2`. Compare them.
 * measure running time of `TASK B`, and running time of `TASK C`. Compare them.
-* measure the time of creating `100` threads (using `pthread_create`) vs `100` processes using `fork`. Main/parent thread/process should `pthread_join`/`wait` all child threads/processes. Processes/threads don't do any jobs, just `exit`/`pthread_exit` successfully.
+* measure the time of creating `100` threads (using `pthread_create`) vs `100` processes (using `fork`). Main/parent thread/process should `pthread_join`/`wait` all child threads/processes. Processes/threads don't do any jobs, just `exit`/`pthread_exit` successfully.
