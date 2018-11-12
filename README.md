@@ -38,7 +38,7 @@ C:
 Write program that does the same task as in the previous task but each element `C[i][j]` should be calculated by a separate thread.
 
 ```
-$ gcc `multi_mult.c` -o multi_mult
+$ gcc multi_mult.c -o multi_mult
 $ ./multi_mult 2
 A:
 1 2
